@@ -11,9 +11,9 @@
 //   4
 //   buzz
 
-type Log = (logMsg: any) => void;
-const Logger: Log = (logMsg): void => {
-    //console.log(logMsg);
+export type Log = (logMsg: any) => void;
+export const Logger: Log = (logMsg): void => {
+    // console.log(logMsg);
 }
 
 //O(n)
